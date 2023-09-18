@@ -13,7 +13,7 @@ import os
 import environ
 from pathlib import Path
 from django.contrib.messages import constants as messages
-import dj_database_url
+import dj_database_url 
 #Intialize Envi
 env= environ.Env()
 env.read_env()
