@@ -1,4 +1,5 @@
 {
     "git.ignoreLimitWarning": true,
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "python.analysis.typeCheckingMode": "basic"
 }

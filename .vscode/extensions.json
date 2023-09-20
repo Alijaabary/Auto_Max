@@ -2,6 +2,7 @@
     "recommendations": [
         "luis-domenech.vscode-git-push-progress",
         "fnando.linter",
-        "ms-vscode.cpptools"
+        "ms-vscode.cpptools",
+        "donjayamanne.python-extension-pack"
     ]
 }
