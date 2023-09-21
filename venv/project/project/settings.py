@@ -15,7 +15,7 @@ from pathlib import Path
 from django.contrib.messages import constants as messages
 import dj_database_url 
 #Intialize Envi
-env= environ.Env()
+env= environ.Env() # type: ignore
 env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES['default']=dj_database_url.parse("postgres://app_django_render_user:HOgD9rN2aZ0TSU9nTYjwMBgcVtWSP8IA@dpg-ck3ikf36fquc73crrkng-a.oregon-postgres.render.com/app_django_render")
+DATABASES['default']=dj_database_url.parse("postgres://app_django_render_user:HOgD9rN2aZ0TSU9nTYjwMBgcVtWSP8IA@dpg-ck3ikf36fquc73crrkng-a.oregon-postgres.render.com/app_django_render") # type: ignore
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
